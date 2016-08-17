@@ -1,1 +1,385 @@
-# module2-solution
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Our Menu </title>
+ </head>
+ <body>
+  <h1 style="color:black; font-size:20px; text-align:center;">Our Menu</h1>
+
+<style>
+* {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+#box {
+  background-color: gray;
+  padding: 10px;
+  border: 1px  solid black;
+  width: 300px;
+  height: 150px;
+  margin-top: 60px;
+  overflow: auto;
+
+  font-family: Calibri;
+
+margin-right: 15px;
+
+margin-left: 15px;
+  }
+
+#content {
+  background-color: gray
+}
+
+#chiken {
+
+background-color: #ff8c00;
+
+color: black;
+
+margin-left: 20px;
+text-align: right;
+
+}
+.row {
+  padding: 10px;
+}
+
+
+#box1{
+  background-color: gray;
+  padding: 10px;
+  border: 1px  solid black;
+  width: 300px;
+  height: 150px;
+  margin-top: 60px;
+  overflow: auto;
+
+
+display: inline-block;
+
+border: 1px solid black;
+
+padding: 10px;
+
+width: 300px;
+
+text-align: center;
+
+margin-top: 60px;
+
+margin-bottom: 0;
+
+position: absolute;
+
+right:200px;
+
+top: 14px;
+
+
+  }
+
+#content {
+  background-color: gray
+}
+#beef {
+
+background-color: #ff8c00;
+
+color: black;
+
+margin-left: 20px;
+
+}
+.row {
+  padding: 10px;
+}
+#box2 {
+  background-color: gray;
+  padding: 10px;
+  border: 1px  solid black;
+  width: 300px;
+  height: 150px;
+  margin-top: 60px;
+  overflow: auto;
+
+
+  font-variant-caps:  display: inline-block;
+
+border: 1px solid black;
+
+padding: 10px;
+
+width: 300px;
+
+text-align: right;
+
+margin-top: -15px;
+
+margin-bottom: 0;
+
+position: absolute;
+
+right: 0px;
+
+top: 14px;
+
+
+
+
+
+  top: 60px;
+  morgin-right: 400px;
+
+
+
+  }
+  #content {
+  background-color: gray
+}
+#sushi {
+
+background-color: #ff8c00;
+
+color: black;
+margin-left: 20px;
+}
+
+.row {
+
+width: 100%;
+
+margin: 0;
+
+padding: 10px;
+
+}
+
+@media (min-width: 992px) {
+
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+
+float: left;
+
+}
+
+.col-lg-1 {
+
+width: 8.33%;
+
+}
+
+.col-lg-2 {
+
+width: 16.66%;
+
+}
+
+.col-lg-3 {
+
+width: 25%;
+
+}
+
+.col-lg-4 {
+
+width: 33%;
+
+}
+
+.col-lg-5 {
+
+width: 41.66%;
+
+}
+
+.col-lg-6 {
+
+width: 50%;
+
+}
+
+.col-lg-7 {
+
+width: 58.33%;
+
+}
+
+.col-lg-8 {
+
+width: 66.66%;
+
+}
+
+.col-lg-9 {
+
+width: 74.99%;
+
+}
+
+.col-lg-10 {
+
+width: 83.33%;
+
+}
+
+.col-lg-11 {
+
+width: 91.66%;
+
+}
+
+.col-lg-12 {
+
+width: 100%;
+
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+
+float: left;
+
+}
+
+.col-md-1 {
+
+width: 8.33%;
+
+}
+
+.col-md-2 {
+
+width: 16.66%;
+
+}
+
+.col-md-3 {
+
+width: 25%;
+
+}
+
+.col-md-4 {
+
+width: 33%;
+
+}
+
+.col-md-5 {
+
+width: 41.66%;
+
+}
+
+.col-md-6 {
+
+width: 50%;
+
+}
+
+.col-md-7 {
+
+width: 58.33%;
+
+}
+
+.col-md-8 {
+
+width: 66.66%;
+
+}
+
+.col-md-9 {
+
+width: 74.99%;
+
+}
+
+.col-md-10 {
+
+width: 83.33%;
+
+}
+
+.col-md-11 {
+
+width: 91.66%;
+
+}
+
+.col-md-12 {
+
+width: 100%;
+
+}
+
+}
+//*
+#box {
+  background-color: gray;
+  position: relative;
+  top: 60px;
+  }
+ p {
+  width: 300px;
+  height: 150px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+#p1 {
+background-color: gray;
+    
+}
+#p2 {
+  background-color: gary;
+  position: relative;
+  top: 65px;
+  left: 65px;
+}
+#p3 {
+  background-color: gray;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+*//
+</style>
+</head>
+<body>
+
+
+
+<div id="box">
+ <div id="chicken">chicken</div>
+  <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. 
+  </div>
+
+</div>
+<div id="box1">
+ <div id="beef">beef</div>
+  <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. 
+  </div>
+
+<div id="box2">
+ <div id="sushi">sushi</div>
+  <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. 
+  </div>
+
+</div>
+</body>
+</html>
